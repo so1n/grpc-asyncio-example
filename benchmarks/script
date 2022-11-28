@@ -1,0 +1,6 @@
+./ghz -c 100 -n 10000 \
+    --insecure \
+    --proto ../protos/grpc_asyncio_example/protos/helloworld.proto \
+    --call helloworld.Greeter.SayHello \
+    -d '{"name":"Joe", "sleep_millisecond": 10}' \
+    localhost:9999

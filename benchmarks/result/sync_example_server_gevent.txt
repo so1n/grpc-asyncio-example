@@ -1,0 +1,32 @@
+Summary:
+  Count:	10000
+  Total:	5.23 s
+  Slowest:	69.31 ms
+  Fastest:	13.43 ms
+  Average:	51.83 ms
+  Requests/sec:	1913.44
+
+Response time histogram:
+  13.427 [1]    |
+  19.015 [16]   |
+  24.603 [16]   |
+  30.191 [5]    |
+  35.779 [10]   |
+  41.367 [7]    |
+  46.955 [750]  |∎∎∎∎∎∎
+  52.543 [5402] |∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  58.131 [2939] |∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎∎
+  63.719 [812]  |∎∎∎∎∎∎
+  69.307 [42]   |
+
+Latency distribution:
+  10 % in 47.34 ms
+  25 % in 49.11 ms
+  50 % in 51.26 ms
+  75 % in 54.16 ms
+  90 % in 57.58 ms
+  95 % in 60.08 ms
+  99 % in 62.92 ms
+
+Status code distribution:
+  [OK]   10000 responses
